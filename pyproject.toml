@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "piccaso"
+version = "0.1.0"
+description = ""
+authors = ["Alexey Inkov <alex0982@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^5.0.1"
+redis = "^5.0.1"
+django-celery-results = "^2.5.1"
+djangorestframework = "^3.14.0"
+markdown = "^3.5.2"
+django-filter = "^23.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
